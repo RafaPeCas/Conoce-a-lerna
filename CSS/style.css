@@ -27,3 +27,11 @@
 .bg-blue{
     background-color: #F1F1F1;
 }
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, p {
+    font-family: 'Montserrat', sans-serif;
+}
