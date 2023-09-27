@@ -1,0 +1,25 @@
+.paddingBanner{
+    padding-left: 10vw;
+    width: 100%;
+}
+
+.imgBanner{
+    width: 600px;
+}
+
+.paddingNavbar{
+    padding-left: 15vw;
+    padding-right: 25vw;
+}
+
+.navbarIcon{
+    width: 100px;
+}
+
+.bg-navbar{
+    background: #F1F1F1;
+}
+
+.marginText{
+    margin-left:150px ;
+}

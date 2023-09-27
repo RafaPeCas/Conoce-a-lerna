@@ -6,14 +6,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Conoce a ILERNA</title>
   <link rel="stylesheet" type="text/css" href="CSS/bootstrap.css" />
+  <link rel="stylesheet" type="text/css" href="CSS/style.css">
+  <link rel="shortcut icon" href="IMG/LOGO-2.ico" type="image/x-icon">
   <script src="JS/bootstrap.bundle.js"></script>
 </head>
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg bg-light">
+    <nav class="navbar navbar-expand-lg bg-navbar paddingNavbar shadow">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <div class="navbarIcon">
+          <a class="navbar-brand" href="#"><img src="IMG/LOGO 2.png" alt="" class="img-fluid"></a>
+        </div>
+
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -21,14 +26,14 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Glugla glugla</a>
+              <a class="nav-link active" aria-current="page" href="#">Conoce a ILERNA</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                 aria-expanded="false">
                 Departamento
               </a>
-              <ul class="dropdown-menu">
+              <ul class="dropdown-menu bg-navbar">
                 <li><a class="dropdown-item" href="#">Sanidad</a></li>
                 <li><a class="dropdown-item" href="#">Servicios socioculturales</a></li>
                 <li><a class="dropdown-item" href="#">Comercio y marketing</a></li>
@@ -45,13 +50,26 @@
   </header>
 
   <article>
-    <h1 class="">
-      Conoce al staff de ILERNA
-    </h1>
+    <div class="container-fluid p-0">
+      <div class="row justify-content-center align-items-center g-2">
+        <div class="col-6">
+          <div class="marginText">
+            <h1>Ando manejando por las calles que me besaste</h1>
+          </div>
+        </div>
+        <div class="col-6 text-end"><img src="IMG/conserje.jpg" alt="" class="img-fluid"></div>
+      </div>
+
   </article>
 
-  <footer>
-
+  <footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Twitter</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Instagram</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+    </ul>
+    <p class="text-center text-muted">© 2023 ILERNA, Sevilla</p>
   </footer>
 
 
